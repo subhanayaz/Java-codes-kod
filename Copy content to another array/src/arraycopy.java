@@ -16,7 +16,8 @@ public static void main(String[] args)
 		arr1[i] = scan.nextInt();
 	}
 	int arr2[] = new int[arr1.length];
-	for (int i=0; i<arr1.length-1; i++)
+	
+	for (int i=0; i<= arr1.length-1; i++)
 	{
 		arr2[i]=arr1[i];
 	}
@@ -27,7 +28,7 @@ public static void main(String[] args)
 	}
 	System.out.println();
 	System.out.println("array 2 contents are ");
-	for (int i=0; i<=arr2.length-1; i++)
+	for (int i=0; i<= arr1.length-1; i++)
 	{
 		System.out.print(arr2[i]+ " ");
 	}
